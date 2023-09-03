@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .form-row {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="process_form.php">
+        <div class="form-row">
+            <input type="text" name="field[]" placeholder="文本框">
+            <input type="number" name="value[]" value="0">
+            <button class="decrement">-</button>
+            <button class="increment">+</button>
+        </div>
+        <div id="additional-forms"></div>
+        <button type="button" id="add-form">新增表单</button>
+        <button type="submit">提交</button>
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const addFormButton = document.getElementById("add-form");
+            const additionalForms = document.getElementById("additional-forms");
+
+            function createFormRow() {
+                const formRow = document.createElement("div");
+                formRow.classList.add("form-row");
+
+                const textField = document.createElement("input");
+                textField.type = "text";
+                textField.name = "field[]";
+                textField.placeholder = "文本框";
+
+                const valueField = document.createElement("input");
+                valueField.type = "number";
+                valueField.name = "value[]";
+                valueField.value = "0";
+
+                const decrementButton = document.createElement("button");
+                decrementButton.textContent = "-";
+                decrementButton.classList.add("decrement");
+
+                const incrementButton = document.createElement("button");
+                incrementButton.textContent = "+";
+                incrementButton.classList.add("increment");
+
+                formRow.appendChild(textField);
+                formRow.appendChild(valueField);
+                formRow.appendChild(decrementButton);
+                formRow.appendChild(incrementButton);
+
+                additionalForms.appendChild(formRow);
+            }
+
+            addFormButton.addEventListener("click", createFormRow);
+        });
+    </script>
+</body>
+</html>

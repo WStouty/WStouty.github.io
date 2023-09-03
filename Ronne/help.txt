@@ -1,0 +1,48 @@
+友情链接模板
+<div class="col-md-3 col-sm-6 col-xs-12 animate-box fadeInUp animated">
+	<div class="fh5co-footer-widget">
+		<h3>Company</h3>
+		<ul class="fh5co-links">
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Feature Tour</a></li>
+			<li><a href="#">Pricing</a></li>
+			<li><a href="#">Team</a></li>
+		</ul>
+	</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 animate-box fadeInUp animated">
+	<div class="fh5co-footer-widget">
+		<h3>Support</h3>
+		<ul class="fh5co-links">
+			<li><a href="#">Knowledge Base</a></li>
+			<li><a href="#">24/7 Call Support</a></li>
+			<li><a href="#">Video Demos</a></li>
+			<li><a href="#">Terms of Use</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+		</ul>
+	</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 animate-box fadeInUp animated">
+	<div class="fh5co-footer-widget">
+		<h3>Contact Us</h3>
+		<p>
+			<a href="mailto:info@freehtml5.co">info@Freehtml5</a> <br>
+			198 West 21th Street, <br>
+			Suite 721 New York NY 10016 <br>
+			<a href="tel:+123456789">+12 34  5677 89</a>
+		</p>
+	</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 animate-box fadeInUp animated">
+	<div class="fh5co-footer-widget">
+		<h3>Follow Us</h3>
+		<ul class="fh5co-social">
+			<li><a href="#"><i class="icon-twitter"></i></a></li>
+			<li><a href="#"><i class="icon-facebook"></i></a></li>
+			<li><a href="#"><i class="icon-google-plus"></i></a></li>
+			<li><a href="#"><i class="icon-instagram"></i></a></li>
+			<li><a href="#"><i class="icon-youtube-play"></i></a></li>
+		</ul>
+	</div>
+</div>
